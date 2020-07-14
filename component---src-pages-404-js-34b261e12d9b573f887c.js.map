@@ -1,0 +1,1 @@
+{"version":3,"sources":["webpack:///./src/pages/404.js"],"names":["to"],"mappings":"2FAAA,4CAGe,4BAAM,kBAAC,OAAD,CAAMA,GAAG,MAAT","file":"component---src-pages-404-js-34b261e12d9b573f887c.js","sourcesContent":["import React from \"react\"\r\nimport { Link } from \"gatsby\"\r\n\r\nexport default () => <Link to=\"./\">go back Home</Link>\r\n"],"sourceRoot":""}
