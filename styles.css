@@ -227,7 +227,7 @@ html {
   width: 62px;
   animation: Hero-module--herologoanimation2--OLj_7 6s linear infinite;
 }
-.Hero-module--angular--V0kMr {
+.Hero-module--react-testing-library--V0kMr {
   top: 88%;
   right: -38%;
   width: 31px;
@@ -238,10 +238,10 @@ html {
   width: 30px;
 }
 .Hero-module--html5--3rF2j,
-.Hero-module--vue--1CZtI {
+.Hero-module--redux--1CZtI {
   animation: Hero-module--herologoanimation2--OLj_7 6s linear infinite;
 }
-.Hero-module--vue--1CZtI {
+.Hero-module--redux--1CZtI {
   top: 10%;
   left: -38%;
   width: 27px;
@@ -383,9 +383,8 @@ html {
   margin-bottom: 20px;
 }
 
-
 .subtitle {
-  font-size:14px;
-  display:block;
-  color:black;
+  font-size: 14px;
+  display: block;
+  color: black;
 }
