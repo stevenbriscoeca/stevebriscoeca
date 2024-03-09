@@ -1,10 +1,13 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
   <head>
     <meta charset="utf-8" />
     <meta http-equiv="x-ua-compatible" content="ie=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="msapplication-TileColor" content="#0dac8b" />
+
     <link rel="stylesheet" href="styles.css" />
+    <link rel="stylesheet" href="normalize.css" />
     <title>Steven Briscoe - Front-End Developer</title>
     <!-- Global site tag (gtag.js) - Google Analytics -->
     <script
@@ -26,294 +29,202 @@
       rel="stylesheet"
     />
     <link rel="icon" href="../assets/favicon.png" />
-    <meta name="msapplication-TileColor" content="#0dac8b" />
   </head>
   <body>
-    <noscript id="gatsby-noscript"
-      >This app works best with JavaScript enabled.</noscript
-    >
-    <div id="___gatsby">
+    <noscript>This app works best with JavaScript enabled.</noscript>
+    <div>
       <div>
-        <div class="container-module--container--CCWr_">
-          <div class="Hero-module--hero--1MsqY">
-            <h1 class="Hero-module--h1--1e8Ep">
-              Steven Briscoe
-              <span class="subtitle">Front-End developer</span>
-            </h1>
-            <p class="Hero-module--p--trilO">
-              I love coding, solving complex problems and learning new skills.
-              🧑🏼‍💻
-            </p>
-            <img
-              class="Hero-module--deco--ZJCQD"
-              src="./assets/decorations.svg"
-              alt="Decorative element."
-            />
-            <img
-              class="Hero-module--svg--21AQm Hero-module--sass--9FIzs"
-              src="./assets/logo-sass.svg"
-              alt="Sass logo."
-            />
-            <img
-              class="Hero-module--svg--21AQm Hero-module--react--398Xr"
-              src="./assets/logo-react.svg"
-              alt="React logo."
-            />
-            <img
-              class="Hero-module--svg--21AQm Hero-module--npm--1i_LL"
-              src="./assets/logo-npm.svg"
-              alt="npm logo."
-            />
-            <img
-              class="Hero-module--svg--21AQm Hero-module--github--qocFG"
-              src="./assets/logo-github.svg"
-              alt="GitHub logo."
-            />
-            <img
-              class="Hero-module--svg--21AQm Hero-module--vscode--wU4GI"
-              src="./assets/logo-vscode.svg"
-              alt="Visual Studio Code logo."
-            />
-            <img
-              class="Hero-module--svg--21AQm Hero-module--typescript--2kpky"
-              src="./assets/logo-typescript.svg"
-              alt="TypeScript logo."
-            />
-            <img
-              class="Hero-module--svg--21AQm Hero-module--react-testing-library--V0kMr"
-              src="./assets/logo-react-testing-library.svg"
-              alt="React Testing Library logo."
-            />
-            <img
-              class="Hero-module--svg--21AQm Hero-module--html5--3rF2j"
-              src="./assets/logo-html5.svg"
-              alt="HTML5 logo."
-            />
-            <img
-              class="Hero-module--svg--21AQm Hero-module--redux--1CZtI"
-              src="./assets/logo-redux.svg"
-              alt="Redux logo."
-            />
-          </div>
-          <div>
-            <div class="section-module--section--2mCzK">
-              <div class="title-module--div--z5Nj_">
-                <h2 class="title-module--title--HLWPy"><!-- -->Skills</h2>
-                <hr class="title-module--hr--2OWOi" />
-              </div>
-              <div>
-                <div class="skillCategory-module--div--1h4Ry">
-                  <ul class="skills-module--list--Khbgu">
-                    <!-- TypeScript -->
-                    <li
-                      class="Item-module--li--3TbOl"
-                      style="color: var(--green)"
+        <div class="hero">
+          <h1 class="hero-title">
+            Steven Briscoe
+            <span class="hero-subtitle">Front-End developer</span>
+          </h1>
+          <p class="hero-intro">
+            I love coding, solving complex problems and learning new skills. 🧑🏼‍💻
+          </p>
+          <img
+            class="hero-deco"
+            src="./assets/decorations.svg"
+            alt="Decorative element."
+          />
+          <img
+            class="logo logo-sass"
+            src="./assets/logo-sass.svg"
+            alt="Sass logo."
+          />
+          <img
+            class="logo logo-react"
+            src="./assets/logo-react.svg"
+            alt="React logo."
+          />
+          <img
+            class="logo logo-npm"
+            src="./assets/logo-npm.svg"
+            alt="npm logo."
+          />
+          <img
+            class="logo logo-github"
+            src="./assets/logo-github.svg"
+            alt="GitHub logo."
+          />
+          <img
+            class="logo logo-vscode"
+            src="./assets/logo-vscode.svg"
+            alt="Visual Studio Code logo."
+          />
+          <img
+            class="logo logo-typescript"
+            src="./assets/logo-typescript.svg"
+            alt="TypeScript logo."
+          />
+          <img
+            class="logo logo-react-testing-library"
+            src="./assets/logo-react-testing-library.svg"
+            alt="React Testing Library logo."
+          />
+          <img
+            class="logo logo-html5"
+            src="./assets/logo-html5.svg"
+            alt="HTML5 logo."
+          />
+          <img
+            class="logo logo-redux"
+            src="./assets/logo-redux.svg"
+            alt="Redux logo."
+          />
+        </div>
+        <div>
+          <div class="section">
+            <div class="section-header">
+              <h2 class="section-title">Skills</h2>
+              <hr class="section-hr" />
+            </div>
+            <div>
+              <div class="skills">
+                <ul class="skills-list">
+                  <!-- TypeScript -->
+                  <li class="skills-item" style="color: var(--green)">
+                    <span class="Item-module--span--1ZWYn">TypeScript</span>
+                  </li>
+                  <!-- JavaScript -->
+                  <li class="skills-item" style="color: var(--green)">
+                    <span class="Item-module--span--1ZWYn">JavaScript</span>
+                  </li>
+                  <!-- HTML -->
+                  <li class="skills-item" style="color: var(--green)">
+                    <span class="Item-module--span--1ZWYn">HTML</span>
+                  </li>
+                  <!-- SCSS -->
+                  <li class="skills-item" style="color: var(--green)">
+                    <span class="Item-module--span--1ZWYn">SCSS</span>
+                  </li>
+                  <!-- CSS -->
+                  <li class="skills-item" style="color: var(--green)">
+                    <span class="Item-module--span--1ZWYn">CSS</span>
+                  </li>
+                  <!-- React -->
+                  <li class="skills-item" style="color: var(--green)">
+                    <span class="Item-module--span--1ZWYn">React</span>
+                  </li>
+                  <!-- Redux -->
+                  <li class="skills-item" style="color: var(--green)">
+                    <span class="Item-module--span--1ZWYn">Redux</span>
+                  </li>
+                  <!-- React Query -->
+                  <li class="skills-item" style="color: var(--green)">
+                    <span class="Item-module--span--1ZWYn">React Query</span>
+                  </li>
+                  <!-- React Router -->
+                  <li class="skills-item" style="color: var(--green)">
+                    <span class="Item-module--span--1ZWYn">React Router</span>
+                  </li>
+                  <!-- React Testing Library -->
+                  <li class="skills-item" style="color: var(--green)">
+                    <span class="Item-module--span--1ZWYn"
+                      >React Testing Library</span
                     >
-                      <span class="Item-module--span--1ZWYn">TypeScript</span>
-                    </li>
-                    <!-- JavaScript -->
-                    <li
-                      class="Item-module--li--3TbOl"
-                      style="color: var(--green)"
+                  </li>
+                  <!-- Jest -->
+                  <li class="skills-item" style="color: var(--green)">
+                    <span class="Item-module--span--1ZWYn">Jest</span>
+                  </li>
+                  <!-- Cypress -->
+                  <li class="skills-item" style="color: var(--green)">
+                    <span class="Item-module--span--1ZWYn">Cypress</span>
+                  </li>
+                  <!-- Playwright -->
+                  <li class="skills-item" style="color: var(--green)">
+                    <span class="Item-module--span--1ZWYn">Playwright</span>
+                  </li>
+                  <!-- Fluent UI -->
+                  <li class="skills-item" style="color: var(--green)">
+                    <span class="Item-module--span--1ZWYn">Fluent UI</span>
+                  </li>
+                  <!-- StencilJs -->
+                  <li class="skills-item" style="color: var(--green)">
+                    <span class="Item-module--span--1ZWYn">StencilJs</span>
+                  </li>
+                  <!-- BackStopjs -->
+                  <li class="skills-item" style="color: var(--green)">
+                    <span class="Item-module--span--1ZWYn">BackStopjs</span>
+                  </li>
+                  <!-- Storybook -->
+                  <li class="skills-item" style="color: var(--green)">
+                    <span class="Item-module--span--1ZWYn">Storybook</span>
+                  </li>
+                  <!-- concourse -->
+                  <li class="skills-item" style="color: var(--green)">
+                    <span class="Item-module--span--1ZWYn">Concourse CI</span>
+                  </li>
+                  <!-- Git -->
+                  <li class="skills-item" style="color: var(--green)">
+                    <span class="Item-module--span--1ZWYn">Git</span>
+                  </li>
+                  <!-- Jira -->
+                  <li class="skills-item" style="color: var(--green)">
+                    <span class="Item-module--span--1ZWYn">Jira</span>
+                  </li>
+                  <!-- Accessibility (WCAG) -->
+                  <li class="skills-item" style="color: var(--green)">
+                    <span class="Item-module--span--1ZWYn"
+                      >Accessibility (WCAG)</span
                     >
-                      <span class="Item-module--span--1ZWYn">JavaScript</span>
-                    </li>
-                    <!-- HTML -->
-                    <li
-                      class="Item-module--li--3TbOl"
-                      style="color: var(--green)"
-                    >
-                      <span class="Item-module--span--1ZWYn">HTML</span>
-                    </li>
-                    <!-- SCSS -->
-                    <li
-                      class="Item-module--li--3TbOl"
-                      style="color: var(--green)"
-                    >
-                      <span class="Item-module--span--1ZWYn">SCSS</span>
-                    </li>
-                    <!-- CSS -->
-                    <li
-                      class="Item-module--li--3TbOl"
-                      style="color: var(--green)"
-                    >
-                      <span class="Item-module--span--1ZWYn">CSS</span>
-                    </li>
-                    <!-- React -->
-                    <li
-                      class="Item-module--li--3TbOl"
-                      style="color: var(--green)"
-                    >
-                      <span class="Item-module--span--1ZWYn">React</span>
-                    </li>
-                    <!-- Redux -->
-                    <li
-                      class="Item-module--li--3TbOl"
-                      style="color: var(--green)"
-                    >
-                      <span class="Item-module--span--1ZWYn">Redux</span>
-                    </li>
-                    <!-- React Query -->
-                    <li
-                      class="Item-module--li--3TbOl"
-                      style="color: var(--green)"
-                    >
-                      <span class="Item-module--span--1ZWYn">React Query</span>
-                    </li>
-                    <!-- React Router -->
-                    <li
-                      class="Item-module--li--3TbOl"
-                      style="color: var(--green)"
-                    >
-                      <span class="Item-module--span--1ZWYn">React Router</span>
-                    </li>
-                    <!-- React Testing Library -->
-                    <li
-                      class="Item-module--li--3TbOl"
-                      style="color: var(--green)"
-                    >
-                      <span class="Item-module--span--1ZWYn"
-                        >React Testing Library</span
-                      >
-                    </li>
-                    <!-- Jest -->
-                    <li
-                      class="Item-module--li--3TbOl"
-                      style="color: var(--green)"
-                    >
-                      <span class="Item-module--span--1ZWYn">Jest</span>
-                    </li>
-                    <!-- Cypress -->
-                    <li
-                      class="Item-module--li--3TbOl"
-                      style="color: var(--green)"
-                    >
-                      <span class="Item-module--span--1ZWYn">Cypress</span>
-                    </li>
-                    <!-- Playwright -->
-                    <li
-                      class="Item-module--li--3TbOl"
-                      style="color: var(--green)"
-                    >
-                      <span class="Item-module--span--1ZWYn">Playwright</span>
-                    </li>
-                    <!-- Fluent UI -->
-                    <li
-                      class="Item-module--li--3TbOl"
-                      style="color: var(--green)"
-                    >
-                      <span class="Item-module--span--1ZWYn">Fluent UI</span>
-                    </li>
-                    <!-- StencilJs -->
-                    <li
-                      class="Item-module--li--3TbOl"
-                      style="color: var(--green)"
-                    >
-                      <span class="Item-module--span--1ZWYn">StencilJs</span>
-                    </li>
-                    <!-- BackStopjs -->
-                    <li
-                      class="Item-module--li--3TbOl"
-                      style="color: var(--green)"
-                    >
-                      <span class="Item-module--span--1ZWYn">BackStopjs</span>
-                    </li>
-                    <!-- Storybook -->
-                    <li
-                      class="Item-module--li--3TbOl"
-                      style="color: var(--green)"
-                    >
-                      <span class="Item-module--span--1ZWYn">Storybook</span>
-                    </li>
-                    <!-- concourse -->
-                    <li
-                      class="Item-module--li--3TbOl"
-                      style="color: var(--green)"
-                    >
-                      <span class="Item-module--span--1ZWYn">concourse</span>
-                    </li>
-                    <!-- Git -->
-                    <li
-                      class="Item-module--li--3TbOl"
-                      style="color: var(--green)"
-                    >
-                      <span class="Item-module--span--1ZWYn">Git</span>
-                    </li>
-                    <!-- Jira -->
-                    <li
-                      class="Item-module--li--3TbOl"
-                      style="color: var(--green)"
-                    >
-                      <span class="Item-module--span--1ZWYn">Jira</span>
-                    </li>
-                    <!-- Accessibility (WCAG) -->
-                    <li
-                      class="Item-module--li--3TbOl"
-                      style="color: var(--green)"
-                    >
-                      <span class="Item-module--span--1ZWYn"
-                        >Accessibility (WCAG)</span
-                      >
-                    </li>
-                    <!-- Agile / SCRUM -->
-                    <li
-                      class="Item-module--li--3TbOl"
-                      style="color: var(--green)"
-                    >
-                      <span class="Item-module--span--1ZWYn"
-                        >Agile / SCRUM</span
-                      >
-                    </li>
-                  </ul>
-                </div>
+                  </li>
+                  <!-- Agile / SCRUM -->
+                  <li class="skills-item" style="color: var(--green)">
+                    <span class="Item-module--span--1ZWYn">Agile / SCRUM</span>
+                  </li>
+                </ul>
               </div>
             </div>
-          </div>
-          <div class="section-module--section--2mCzK">
-            <div class="title-module--div--z5Nj_">
-              <h2 class="title-module--title--HLWPy"><!-- -->Contact</h2>
-              <hr class="title-module--hr--2OWOi" />
-            </div>
-            <footer class="footer-module--footer--1sNjJ">
-              <div class="footer-module--inner--HgBSL">
-                <a
-                  class="footer-module--link--1kTrr"
-                  href="mailto:stevebriscoeca@gmail.com"
-                  >stevebriscoeca@gmail.com</a
-                ><a
-                  class="footer-module--link--1kTrr"
-                  href="https://www.linkedin.com/in/steven-briscoe-ca/                  "
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  >Linkedin</a
-                ><a
-                  class="footer-module--link--1kTrr"
-                  href="https://twitter.com/stevenbriskca"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  >Twitter</a
-                >
-              </div>
-            </footer>
           </div>
         </div>
+        <div class="section">
+          <div class="section-header">
+            <h2 class="section-title">Contact</h2>
+            <hr class="section-hr" />
+          </div>
+          <footer class="footer">
+            <div class="footer-inner">
+              <a class="footer-link" href="mailto:stevebriscoeca@gmail.com"
+                >stevebriscoeca@gmail.com</a
+              ><a
+                class="footer-link"
+                href="https://www.linkedin.com/in/steven-briscoe-ca/                  "
+                target="_blank"
+                rel="noopener noreferrer"
+                >Linkedin</a
+              ><a
+                class="footer-link"
+                href="https://twitter.com/stevenbriskca"
+                target="_blank"
+                rel="noopener noreferrer"
+                >Twitter</a
+              >
+            </div>
+          </footer>
+        </div>
       </div>
-      <div
-        id="gatsby-announcer"
-        style="
-          position: absolute;
-          top: 0;
-          width: 1px;
-          height: 1px;
-          padding: 0;
-          overflow: hidden;
-          clip: rect(0, 0, 0, 0);
-          white-space: nowrap;
-          border: 0;
-        "
-        aria-live="assertive"
-        aria-atomic="true"
-      ></div>
     </div>
   </body>
 </html>
