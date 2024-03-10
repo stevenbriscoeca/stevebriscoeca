@@ -126,7 +126,6 @@ html {
   display: flex;
   justify-items: center;
   align-items: center;
-  grid-row-gap: 10px;
 }
 .Item-module--span--1ZWYn {
   color: var(--black);
@@ -144,8 +143,6 @@ html {
   align-items: center;
 }
 .section {
-  display: grid;
-  justify-self: center;
   max-width: 850px;
   margin: 80px auto;
   padding: 0 20px;
@@ -176,11 +173,11 @@ html {
 }
 
 .skills-list {
-  display: grid;
-  grid-column-gap: 24px;
-  grid-row-gap: 18px;
-  grid-template-columns: repeat(7, 1fr);
   padding-left: 0;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+  justify-content: space-around;
 }
 @media (max-width: 767px) {
   .skills-list {
